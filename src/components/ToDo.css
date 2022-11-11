@@ -1,0 +1,25 @@
+.toDo{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.itemsList{
+    width: 100%;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.concluido{
+    color: red;
+    text-decoration: line-through;
+}
